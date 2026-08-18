@@ -1,0 +1,250 @@
+html, body, [class*="css"] {
+    font-family: "Segoe UI", "Inter", sans-serif;
+}
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0a1120 0%, #0d1b33 100%);
+}
+
+section[data-testid="stSidebar"] > div {
+    padding-top: 1rem;
+}
+
+.stSidebar .stButton > button {
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.94);
+    padding: 0.7rem 0.9rem;
+    text-align: left;
+    font-weight: 600;
+    transition: all 0.18s ease;
+}
+
+.stSidebar .stButton > button:hover {
+    background: rgba(31, 119, 180, 0.22);
+    border-color: rgba(31, 119, 180, 0.5);
+    color: #ffffff;
+}
+
+.stSidebar .stButton > button:focus {
+    box-shadow: 0 0 0 2px rgba(31, 119, 180, 0.35);
+}
+
+.stSidebar [data-testid="stMarkdownContainer"] {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.stApp {
+    background:
+        radial-gradient(circle at top left, rgba(31, 119, 180, 0.16), transparent 28%),
+        radial-gradient(circle at top right, rgba(46, 204, 113, 0.10), transparent 24%),
+        linear-gradient(180deg, #f8fbff 0%, #f2f6fb 42%, #e9eef5 100%);
+}
+
+.block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.main-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0f2747;
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.03em;
+}
+
+.sub-header {
+    font-size: 1.05rem;
+    color: #526170;
+    margin-bottom: 1.25rem;
+}
+
+.section-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(31, 119, 180, 0.25);
+    padding-bottom: 0.5rem;
+    color: #172b4d;
+}
+
+.sidebar-panel {
+    background: linear-gradient(180deg, rgba(15, 39, 71, 0.98), rgba(23, 52, 89, 0.96));
+    border-radius: 20px;
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 16px 34px rgba(15, 39, 71, 0.18);
+    margin-bottom: 1rem;
+}
+
+.sidebar-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.sidebar-brand h3 {
+    margin: 0;
+    font-size: 1.15rem;
+    color: white;
+}
+
+.sidebar-brand p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.sidebar-section {
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.sidebar-section h4 {
+    margin: 0 0 0.45rem 0;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.nav-tip {
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.nav-tip strong {
+    color: rgba(255, 255, 255, 0.97);
+}
+
+.stSelectbox label,
+.stMultiSelect label,
+.stTextInput label {
+    color: #172b4d !important;
+    font-weight: 600;
+}
+
+.stDataFrame,
+.stTable {
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 16px;
+}
+
+.stAlert {
+    border-radius: 16px;
+}
+
+.hero-panel {
+    background: linear-gradient(135deg, rgba(15, 39, 71, 0.98), rgba(31, 119, 180, 0.94));
+    color: white;
+    border-radius: 24px;
+    padding: 1.5rem 1.75rem;
+    box-shadow: 0 18px 40px rgba(15, 39, 71, 0.18);
+    margin-bottom: 1.25rem;
+}
+
+.hero-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.78);
+    margin-bottom: 0.4rem;
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.hero-copy {
+    color: rgba(255, 255, 255, 0.88);
+    margin-top: 0.6rem;
+    margin-bottom: 0;
+    max-width: 72ch;
+}
+
+.metric-card {
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(15, 39, 71, 0.08);
+    border-radius: 18px;
+    padding: 1rem 1.1rem;
+    box-shadow: 0 10px 24px rgba(15, 39, 71, 0.05);
+    backdrop-filter: blur(10px);
+    height: 100%;
+}
+
+.metric-label {
+    color: #5d7085;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.45rem;
+}
+
+.metric-value {
+    color: #0f2747;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.metric-delta {
+    margin-top: 0.35rem;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.metric-subtitle {
+    margin-top: 0.45rem;
+    color: #6b7c90;
+    font-size: 0.88rem;
+}
+
+.callout-box {
+    background: linear-gradient(135deg, rgba(46, 204, 113, 0.14), rgba(31, 119, 180, 0.10));
+    border: 1px solid rgba(31, 119, 180, 0.18);
+    border-radius: 18px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1rem;
+    color: #16314f;
+}
+
+.callout-box strong {
+    color: #0f2747;
+}
+
+.detail-card {
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(15, 39, 71, 0.08);
+    border-radius: 18px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 10px 24px rgba(15, 39, 71, 0.04);
+}
+
+.detail-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: #0f2747;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 0.35rem;
+    color: #516173;
+    font-size: 0.92rem;
+}
+
+.stMetric {
+    background: transparent;
+}
